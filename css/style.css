@@ -1,0 +1,137 @@
+* {
+  list-style: none;
+}
+body {
+  /* background-color: #f8dbc0; */
+  background-image: url("https://wallpaperaccess.com/full/3669719.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #0f0e68;
+  border-bottom: 1px solid black;
+}
+.card {
+  background-color: #0f0e68;
+  opacity: 0.6;
+}
+
+footer {
+  background-color: #aff9c9;
+  border-top: 1px solid black;
+}
+.list {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.card {
+  margin-bottom: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.next {
+  width: 100px;
+}
+
+.prev {
+  width: 100px;
+}
+
+.nav-item {
+  padding-left: 10px;
+}
+
+.greetings {
+  font-size: 25px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.navbar-toggler {
+  width: 90px;
+  height: 30px;
+}
+#prevBtn {
+  border-radius: 25px;
+  background-color: rgb(224, 217, 217);
+  color: black;
+}
+#nextBtn {
+  border-radius: 25px;
+  background-color: rgb(224, 217, 217);
+  color: black;
+}
+#searchInputBtn {
+  background-color: rgb(224, 217, 217);
+}
+
+.footer {
+  background-color: #0f0e68;
+  border-bottom: 1px solid black;
+}
+#addPerson {
+  margin: 0 30px;
+  width: 200px;
+  background-color: rgb(224, 217, 217);
+  color: grey;
+  border-radius: 30px;
+}
+
+.card-text {
+  color: white;
+}
+
+.btnDelete {
+  color: rgb(224, 217, 217);
+}
+
+.btnEdit {
+  color: rgb(224, 217, 217);
+}
+
+.modal-content {
+  background-color: #5247da;
+}
+
+@media all and (max-width: 1550px) {
+  #addPerson {
+    margin-left: 10px;
+  }
+}
+@media all and (max-width: 1300px) {
+  .logo_img {
+    max-width: 70%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .logo_img {
+    max-width: 60%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .logo_img {
+    max-width: 50%;
+  }
+}
+@media all and (max-width: 700px) {
+  .logo_img {
+    max-width: 40%;
+  }
+}
+@media all and (max-width: 550px) {
+}
